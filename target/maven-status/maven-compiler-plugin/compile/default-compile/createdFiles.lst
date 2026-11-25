@@ -1,0 +1,6 @@
+com\identityos\network_telemetry_service\TelemetryProperties.class
+com\identityos\network_telemetry_service\TelemetryController.class
+com\identityos\network_telemetry_service\TelemetryController$EvidenceResponse.class
+com\identityos\network_telemetry_service\NetworkTelemetryServiceApplication.class
+com\identityos\network_telemetry_service\TelemetryController$Signal.class
+com\identityos\network_telemetry_service\TelemetryController$EvaluationContext.class

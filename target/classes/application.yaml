@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: network-telemetry-service
+server:
+  port: ${NETWORK_TELEMETRY_PORT:8090}
+telemetry:
+  # Demo mode emits SUCCESS for the five signals. Keep false except during a local test.
+  demo-mode: ${TELEMETRY_DEMO_MODE:false}
+  # Required. Must match TRUST_TELEMETRY_EVIDENCE_TOKEN in trust-service.
+  evidence-token: ${TELEMETRY_EVIDENCE_TOKEN:}
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
